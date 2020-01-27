@@ -1,0 +1,87 @@
+@mixin MainButton {
+  font-weight: 700;
+  padding: 5px 10px;
+  border: 2px solid $Green;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.3s ease all;
+
+  &:hover {
+    background-color: $Green;
+    color: $Yellow;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease all;
+  }
+
+  &:disabled {
+    background-color: $Red;
+    border: 2px solid $Red;
+    cursor: default;
+    color: $Yellow;
+
+    &:disabled:hover {
+      background-color: $Red;
+      border: 2px solid $Red;
+      color: $Yellow;
+      cursor: default;
+      box-shadow: none;
+    }
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+}
+
+@mixin RemoveSmallBtn {
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 900;
+  color: $White;
+  background-color: $Ltred;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 15px;
+
+
+  &:hover {
+    background-color: $Red;
+    border: 2px solid $Ltred;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: 0.2s ease all;
+  }
+
+  &:active {
+    background: transparent;
+    color: $Yellow;
+    border: 2px solid $Yellow;
+    box-shadow: none;
+  }
+}
+
+@mixin AddSmallBtn {
+  width: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 900;
+  background-color: $Ltgreen;
+  color: $Green;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 15px;
+
+  &:hover {
+    background-color: $Green;
+    border: 2px solid $Ltgreen;
+    color: $Yellow;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease all;
+  }
+
+  &:active {
+    background: transparent;
+    color: $Yellow;
+    border: 2px solid $Yellow;
+    box-shadow: none;
+  }
+}

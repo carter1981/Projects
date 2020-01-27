@@ -1,0 +1,124 @@
+<div class="title-wrapper">
+	<h1>Calculator</h1>
+</div>
+<div class="main-content__wrapper-outer">
+	<div class="main-content__wrapper-inner">
+		<aside>
+			<div class="products-wrapper__outer">
+				<div class="category-wrapper">
+					<div class="category-title">Milk Products</div>
+					<div class="products-wrapper__inner">
+						{{#each milkProducts}}
+							{{> calculatorSingleProduct singleProduct=this}}
+						{{/each}}
+					</div>
+				</div>
+				<div class="category-wrapper">
+					<div class="category-title">Grocery Products</div>
+					<div class="products-wrapper__inner">
+						{{#each groceryProducts}}
+							{{> calculatorSingleProduct singleProduct=this}}
+						{{/each}}
+					</div>
+				</div>
+				<div class="category-wrapper">
+					<div class="category-title">Bakery Products</div>
+					<div class="products-wrapper__inner">
+						{{#each bakeryProducts}}
+							{{> calculatorSingleProduct singleProduct=this}}
+						{{/each}}
+					</div>
+				</div>
+				<div class="category-wrapper">
+					<div class="category-title">Fruits</div>
+					<div class="products-wrapper__inner">
+						{{#each fruits}}
+							{{> calculatorSingleProduct singleProduct=this}}
+						{{/each}}
+					</div>
+				</div>
+				<div class="category-wrapper">
+					<div class="category-title">Vegetables</div>
+					<div class="products-wrapper__inner">
+						{{#each vegetables}}
+							{{> calculatorSingleProduct singleProduct=this}}
+						{{/each}}
+				</div>
+
+
+			</div>
+				<div class="category-wrapper">
+					<div class="category-title">Side Dishes</div>
+					<div class="products-wrapper__inner">
+						{{#each sideDishes}}
+							{{> calculatorSingleProduct singleProduct=this}}
+						{{/each}}
+					</div>
+
+
+				</div>
+				<div class="category-wrapper">
+					<div class="category-title">Meat Products</div>
+					<div class="products-wrapper__inner">
+						{{#each meatProducts}}
+							{{> calculatorSingleProduct singleProduct=this}}
+						{{/each}}
+					</div>
+
+
+				</div>
+				<div class="category-wrapper">
+					<div class="category-title">Fish Products</div>
+					<div class="products-wrapper__inner">
+						{{#each fishProducts}}
+							{{> calculatorSingleProduct singleProduct=this}}
+						{{/each}}
+					</div>
+
+
+				</div>
+			</div>
+		</aside>
+
+		<section>
+			<div class="tabs-wrapper__outer">
+				<div class="tabs-wrapper__inner">
+					<div class="tab-nav active-tab" data-tab-name="breakfast">CALCULATOR</div>
+					<div class="tab-nav" id="shoppingList" data-tab-name="shopping-list">SHOPPING LIST</div>
+					<div class="tab-content breakfast show">
+						<div class="calculator-inner">
+							<div class="calculator">
+								<div class="calculator-title">Calculate your meal</div>
+								<div class="cart">
+									<div class="cart-inner">Drop in here</div>
+								</div>
+								<div class="input-area"></div>
+								<div class="buttons-wrapper">
+									<button class="add" disabled>Add</button>
+									<button class="clear" disabled>Reset</button>
+								</div>
+								<div class="calory-total">Total Kkal:
+									<div class="result">0</div>
+								</div>
+							</div>
+							<div class="items">
+								<div class="items-title">Calories in this meal</div>
+								<div class="items-content"></div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-content shopping-list hide">
+						<div class="shopping-list__inner">
+							<div class="shopping-list__items"></div>
+							<div class="shopping-list__description">
+								<div class="title">Products to buy in the shop</div>
+								<button class="save" disabled>Save this list to "My Set"</button>
+								<div class="input-area" id="naming-input-area"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>

@@ -1,0 +1,132 @@
+header {
+  height: 65px;
+  padding: 5px;
+  background-color: $Ltgreen;
+  display: flex;
+  justify-content: center;
+
+  & .header-inner {
+    flex-basis: 1600px;
+    display: flex;
+    justify-content: space-between;
+
+    & .logo-section {
+
+      flex-basis: 400px;
+      display: flex;
+      align-items: center;
+      margin-left: 130px;
+
+      & .logo-title {
+        color: $Yellow;
+        margin-left: 20px;
+        font-weight: 700;
+        font-size: 26px;
+      }
+    }
+
+    & .menu-section {
+      flex-basis: 920px;
+      align-self: center;
+      position: relative;
+      z-index: 100;
+
+      & .menu-link {
+        text-decoration: none;
+        color: $Green;
+        font-size: 18px;
+        font-weight: 500;
+        margin-right: 15px;
+
+        &:hover,
+        &.active {
+          color: $Yellow;
+          transition: 0.2s ease all;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  header .header-inner .menu-section {
+    text-align: right;
+    margin-right: 20px;
+  }
+
+  header .header-inner .logo-section {
+    margin-left: 20px;
+  }
+
+}
+@media screen and (min-width: 770px) and (max-width: 992px) {
+  header .header-inner .menu-section {
+    text-align: right;
+  }
+
+  header .header-inner .logo-section {
+    margin-left: 20px;
+    flex: 1 0 auto;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 769px) {
+  header .header-inner .menu-section {
+    flex: 1 0 auto;
+  }
+
+  header .header-inner .logo-section {
+    margin-left: 5px;
+    flex: 1 0 auto;
+  }
+  img {
+    width: 64px;
+    height: 52px;
+  }
+  header .header-inner .logo-section .logo-title {
+    font-size: 18px;
+    margin-left: 5px;
+  }
+
+  header .header-inner .menu-section .menu-link {
+    font-size: 15px;
+    margin-right: 5px;
+  }
+}
+//@media screen and (max-width: 991px) {
+//  header {
+//    & .header-inner {
+//      & .logo-section {
+//        & .logo-title {
+//          font-size: 20px;
+//        }
+//      }
+//      & .menu-section {
+//        & .menu-link {
+//          font-size: 16px;
+//          margin: 0 auto;
+//        }
+//      }
+//    }
+//  }
+//}
+//
+//@media screen and (max-width: 768px) {
+//  header {
+//    & .header-inner {
+//      & .logo-section {
+//        margin-left: 0;
+//        & .logo-title {
+//          font-size: 16px;
+//        }
+//      }
+//      & .menu-section {
+//        flex-basis: 90%;
+//        & .menu-link {
+//          font-size: 12px;
+//          margin-left: 5px;
+//        }
+//      }
+//    }
+//  }
+//}

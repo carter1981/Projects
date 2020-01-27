@@ -1,0 +1,9 @@
+<div class="title-wrapper">
+	<h1>Products of: "{{name}}"</h1>
+</div>
+<div class="products-list__wrapper">
+	{{#each products}}
+		{{> infoSingleProduct product=this}}
+	{{/each}}
+</div>
+<button class="back">Back</button>

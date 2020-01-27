@@ -1,0 +1,90 @@
+@import 'buttons.scss';
+
+.my-products__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: $Green;
+  border: 3px solid $Ltgreen;
+  border-radius: 10px;
+  width: 800px;
+  height: 480px;
+  padding: 10px;
+  overflow: auto;
+
+  & .empty-msg {
+    font-size: 20px;
+    font-weight: 600;
+    color: $Yellow;
+    margin: 30px auto;
+  }
+
+  & .set-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    border: 2px dashed $Yellow;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 5px;
+
+    &:hover {
+      background: $Yellow;
+      border-radius: 10px;
+      color: $Green;
+      border: none;
+      border: 2px solid $Yellow;
+      box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+      transition: 0.3s ease all;
+
+      & > .set-item__name {
+        color: $Green;
+      }
+    }
+
+    & .set-item__name {
+      margin-left: 20px;
+      font-size: 20px;
+      font-weight: 600;
+      color: $Yellow;
+    }
+  }
+}
+
+.remove-list {
+  width: 100px;
+  padding: 5px;
+  font-weight: 700;
+  color: $White;
+  background-color: $Ltred;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 15px;
+
+  &:hover {
+    background-color: $Red;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: 0.2s ease all;
+  }
+
+  &:active {
+    background-color: transparent;
+    color: $Green;
+    border: 2px solid $Green;
+    box-shadow: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .my-products__wrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 769px) {
+  .my-products__wrapper {
+    width: 90%;
+  }
+}
+

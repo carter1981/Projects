@@ -1,0 +1,11 @@
+{
+  "database": {
+    "products": "./database/products.json",
+    "set": "./database/product-set.json"
+  },
+
+  "routes": {
+    "products": "./routes/products.js",
+    "set": "./routes/product-set.js"
+  }
+}

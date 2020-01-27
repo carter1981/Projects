@@ -1,0 +1,33 @@
+@mixin InputGroup {
+  position: relative;
+  margin: 7px 30px;
+}
+
+@mixin Input {
+  margin: 7px auto;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+  display: block;
+  width: 150px;
+  color: $Green;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  background-color: $Yellow;
+  border-bottom: 2px solid $Green;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+@mixin Label {
+  font-size: 16px;
+  position: absolute;
+  pointer-events: none;
+  left: 25px;
+  top: 5px;
+  color: $Red;
+  transition: 0.2s ease all;
+}

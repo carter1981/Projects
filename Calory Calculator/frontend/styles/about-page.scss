@@ -1,0 +1,133 @@
+.about-wrapper {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $Green;
+
+  &:before {
+    content: '';
+    background: url(/img/main-green.png);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  & h1.main-title {
+    margin: 50px;
+
+    & .letter {
+      color: $Yellow;
+      font-size: 80px;
+      opacity: 0;
+      transition: 1s ease all;
+    }
+
+    & .fade {
+      opacity: 1;
+    }
+  }
+
+  & .lime-top {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+  }
+
+  & .lime-bottom {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+  }
+
+  & .greeting-text {
+    width: 600px;
+    color: $White;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+
+    & span.welcome,
+    span.enjoy {
+      font-size: 25px;
+      font-weight: 600;
+      color: $Yellow;
+    }
+  }
+
+  & .start-using {
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    font-weight: 700;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: $Green;
+    background: $Yellow;
+    border: 2px solid $Green;
+    position: relative;
+    z-index: 1;
+
+    &:hover {
+      background-color: $Green;
+      border: 2px solid $Ltgreen;
+      color: $Yellow;
+      transition: 0.3s ease all;
+      cursor: pointer;
+      box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    &:active {
+      box-shadow: none;
+      border: 2px solid $Yellow;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .about-wrapper {
+    //height: 100vh !important;
+  }
+  .about-wrapper .lime-bottom {
+    display: none;
+  }
+  .about-wrapper .lime-top {
+    display: none;
+  }
+  .about-wrapper h1.main-title .letter {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 769px) {
+  .about-wrapper {
+
+    position: relative;
+    height: 100%;
+    &:before {
+      background-size: contain;
+    }
+  }
+  .about-wrapper .greeting-text {
+    width: 80%;
+  }
+  .about-wrapper .lime-bottom {
+    display: none;
+
+  }
+  .about-wrapper .lime-top {
+    display: none;
+  }
+  .about-wrapper h1.main-title .letter {
+    font-size: 40px;
+  }
+}
+

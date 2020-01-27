@@ -1,0 +1,296 @@
+[
+  {
+    "category": "Milk",
+    "name": "Milk",
+    "id": "Milk",
+    "src": "./img/products/Milk.png",
+    "calory": 41
+  },
+  {
+    "category": "Milk",
+    "name": "Buttermilk",
+    "id": "Buttermilk",
+    "src": "../img/products/Buttermilk.png",
+    "calory": 56
+  },
+  {
+    "category": "Milk",
+    "name": "Sour-cream",
+    "id": "Sour-cream",
+    "src": "../img/products/Sour-cream.png",
+    "calory": 248
+  },
+  {
+    "category": "Milk",
+    "name": "Butter",
+    "id": "Butter",
+    "src": "../img/products/Butter.png",
+    "calory": 740
+  },
+  {
+    "category": "Milk",
+    "name": "Cottage cheese",
+    "id": "Cottage cheese",
+    "src": "../img/products/Cottage-cheese.png",
+    "calory": 149
+  },
+  {
+    "category": "Milk",
+    "name": "Mozzarella-Cheese",
+    "id": "Mozzarella-Cheese",
+    "src": "../img/products/Mozzarella-Cheese.png ",
+    "calory": 242
+  },
+  {
+    "category": "Milk",
+    "name": "Cheese",
+    "id": "Cheese",
+    "src": "../img/products/Cheese.png ",
+    "calory": 356
+  },
+  {
+    "category": "Bakery",
+    "name": "Brown-bread",
+    "id": "Brown-bread",
+    "src": "../img/products/Brown-bread.png",
+    "calory": 206
+  },
+  {
+    "category": "Bakery",
+    "name": "Pitta-bread",
+    "id": "Pitta-bread",
+    "src": "../img/products/Pitta-bread.png",
+    "calory": 236
+  },
+  {
+    "category": "Bakery",
+    "name": "Crispbread",
+    "id": "Crispbread",
+    "src": "../img/products/Crispbread.png",
+    "calory": 290
+  },
+  {
+    "category": "Grocery",
+    "name": "Green tea",
+    "id": "Green tea",
+    "src": "../img/products/Green-tea.png",
+    "calory": 0
+  },
+  {
+    "category": "Grocery",
+    "name": "Coffee",
+    "id": "Coffee",
+    "src": "../img/products/Coffee.png ",
+    "calory": 2
+  },
+  {
+    "category": "Grocery",
+    "name": "Sunflower-oil",
+    "id": "Sunflower-oil",
+    "src": "../img/products/Sunflower-oil.png",
+    "calory": 900
+  },
+  {
+    "category": "Grocery",
+    "name": "Olive-oil",
+    "id": "Olive-oil",
+    "src": "../img/products/Olive-oil.png",
+    "calory": 890
+  },
+  {
+    "category": "Fruits",
+    "name": "Apple",
+    "id": "Apple",
+    "src": "../img/products/Apple.png",
+    "calory": 53
+  },
+  {
+    "category": "Fruits",
+    "name": "Bananas",
+    "id": "Bananas",
+    "src": "../img/products/Bananas.png",
+    "calory": 95
+  },
+  {
+    "category": "Fruits",
+    "name": "Pear",
+    "id": "Pear",
+    "src": "../img/products/Pear.png",
+    "calory": 42
+  },
+  {
+    "category": "Fruits",
+    "name": "Peach",
+    "id": "Peach",
+    "src": "../img/products/Peach.png",
+    "calory": 46
+  },
+  {
+    "category": "Fruits",
+    "name": "Plums",
+    "id": "Plums",
+    "src": "../img/products/Plums.png",
+    "calory": 42
+  },
+  {
+    "category": "Fruits",
+    "name": "Mandarines",
+    "id": "Mandarines",
+    "src": "../img/products/Mandarines.png",
+    "calory": 33
+  },
+  {
+    "category": "Vegetables",
+    "name": "Cucumber",
+    "id": "Cucumber",
+    "src": "../img/products/Cucumber.png",
+    "calory": 15
+  },
+  {
+    "category": "Vegetables",
+    "name": "Tomatoes",
+    "id": "Tomatoes",
+    "src": "../img/products/Tomatoes.png",
+    "calory": 20
+  },
+  {
+    "category": "Vegetables",
+    "name": "Cabbage",
+    "id": "Cabbage",
+    "src": "../img/products/Cabbage.png",
+    "calory": 27
+  },
+  {
+    "category": "Vegetables",
+    "name": "Lettuce",
+    "id": "Lettuce",
+    "src": "../img/products/Lettuce.png",
+    "calory": 16
+  },
+  {
+    "category": "Vegetables",
+    "name": "Bell Peppers",
+    "id": "Bell-Peppers",
+    "src": "../img/products/Bell-Peppers.png",
+    "calory": 27
+  },
+  {
+    "category": "Vegetables",
+    "name": "Radish",
+    "id": "Radish",
+    "src": "../img/products/Radish.png",
+    "calory": 2
+  },
+  {
+    "category": "Vegetables",
+    "name": "Onion",
+    "id": "Onion",
+    "src": "../img/products/Onion.png",
+    "calory": 47
+  },
+  {
+    "category": "Side-dishes",
+    "name": "Potatoes",
+    "id": "Potatoes",
+    "src": "../img/products/Potatoes.png",
+    "calory": 76
+  },
+  {
+    "category": "Side-dishes",
+    "name": "Rice",
+    "id": "Rice",
+    "src": "../img/products/Rice.png",
+    "calory": 333
+  },
+  {
+    "category": "Side-dishes",
+    "name": "Buckwheat",
+    "id": "Buckwheat",
+    "src": "../img/products/Buckwheat.png",
+    "calory": 313
+  },
+  {
+    "category": "Side-dishes",
+    "name": "Pasta",
+    "id": "Pasta",
+    "src": "../img/products/Pasta.png",
+    "calory": 359
+  },
+  {
+    "category": "Side-dishes",
+    "name": "Oatmeal",
+    "id": "Oatmeal",
+    "src": "../img/products/Oatmeal.png",
+    "calory": 342
+  },
+  {
+    "category": "Meat",
+    "name": "Beef",
+    "id": "Beef",
+    "src": "../img/products/Beef.jpg",
+    "calory": 187
+  },
+  {
+    "category": "Meat",
+    "name": "Pork",
+    "id": "Pork",
+    "src": "../img/products/Pork.jpg",
+    "calory": 142
+  },
+  {
+    "category": "Meat",
+    "name": "Chiken",
+    "id": "Chiken",
+    "src": "../img/products/Chiken.jpg",
+    "calory": 113
+  },
+  {
+    "category": "Meat",
+    "name": "Turkey",
+    "id": "Turkey",
+    "src": "../img/products/Turkey.jpg",
+    "calory": 84
+  },
+  {
+    "category": "Meat",
+    "name": "Lamb",
+    "id": "Lamb",
+    "src": "../img/products/Lamb.jpg",
+    "calory": 209
+  },
+  {
+    "category": "Fish",
+    "name": "Herring",
+    "id": "Herring",
+    "src": "../img/products/Herring.png",
+    "calory": 217
+  },
+  {
+    "category": "Fish",
+    "name": "Mackerel",
+    "id": "Mackerel",
+    "src": "../img/products/Mackerel.png",
+    "calory": 191
+  },
+  {
+    "category": "Fish",
+    "name": "Salmon",
+    "id": "Salmon",
+    "src": "../img/products/Salmon.png",
+    "calory": 195
+  },
+  {
+    "category": "Fish",
+    "name": "Mussels",
+    "id": "Mussels",
+    "src": "../img/products/Mussels.png",
+    "calory": 50
+  },
+  {
+    "category": "Fish",
+    "name": "Caviar",
+    "id": "Caviar",
+    "src": "../img/products/Caviar.png",
+    "calory": 251
+  }
+]
